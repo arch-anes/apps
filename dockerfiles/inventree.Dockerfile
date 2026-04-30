@@ -1,4 +1,4 @@
-FROM ubuntu:24.04
+FROM ubuntu:26.04
 
 RUN apt update && apt install -y openjdk-17-jdk openjdk-17-jre \ 
     wget git unzip xz-utils zip \
